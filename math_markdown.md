@@ -696,7 +696,7 @@ f(x) = \csc x
 *   微积分变量: \Delta
 
 ```math
-\Detla x
+\Delta x
 ```
 
 *   微积分算子: \mathrm{d}
