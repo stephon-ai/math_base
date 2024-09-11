@@ -842,5 +842,36 @@ a_{n1}&a_{n2}&\cdots&a_{nn}\\
     - 开始标记: \begin{array}{...}
     - 结束标记: \end{array}
     - 对齐方式: 在开始标记{array}后面的{...}中定义
-  
+        - l: 左对齐
+        - c: 居中对齐
+        - r: 右对齐
+        - |: 竖线分隔
+    - 水平线: \hline
+
+###### 示例
+
+```math
+\begin{array}{c|lll}
+{↓}&{a}&{b}&{c}\\
+\hline
+{R_1}&{c}&{b}&{a}\\
+{R_2}&{b}&{c}&{c}\\
+\end{array}
+```
+
+##### 5.方程组
+
+- 起始声明: \begin{cases}
+- 结束声明: \end{cases}
+
+###### 示例
+
+```math
+\begin{cases}
+a_1x+b_1y+c_1z = d_1\\
+a_2x+b_2y+c_2z = d_2\\
+a_3x+b_3y+c_3z = d_3\\
+\end{cases}
+```
+
   
