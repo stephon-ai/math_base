@@ -1,25 +1,25 @@
 ## 数学公式markdown实现。
 
-*   [参考引用](https://www.jianshu.com/p/8b6fc36035c0)
+- [参考引用](https://www.jianshu.com/p/8b6fc36035c0)
 
-*   举例如下：
+- 举例如下：
 
 ```math
 \sum_{i=0}^{N}\int_{a}^{b}g(t,i)\text{d}t
 ```
 
-*   说明：求和、积分、函数等
-    *   求和：sum
-    *   积分：int
-        *   多重积分：iint-二重 iiint-三重 i的数量就是重数。
-    *   函数，不变
+- 说明：求和、积分、函数等
+    - 求和：sum
+    - 积分：int
+        - 多重积分：iint-二重 iiint-三重 i的数量就是重数。
+    - 函数，不变
 
 ### 详细说明
 
 #### 希腊字母
 
-*   由于数学中通常会用希腊字母代表函数等，所以经常会遇到希腊字母。
-*   对应的表格如下：
+- 由于数学中通常会用希腊字母代表函数等，所以经常会遇到希腊字母。
+- 对应的表格如下：
 
 | 显示 | 命令       | 显示 | 命令     |
 | -- | -------- | -- | ------ |
@@ -152,8 +152,8 @@
 
 ##### 1.上下标
 
-*   上标: ^
-*   下标: \_
+- 上标: ^
+- 下标: \_
 
 ###### 示例
 
@@ -171,8 +171,8 @@ C_{n}^{2}
 
 ##### 2.矢量
 
-*   a的矢量: \vec a
-*   xy的矢量: \overrightarrow{xy}
+- a的矢量: \vec a
+- xy的矢量: \overrightarrow{xy}
 
 ###### 示例
 
@@ -194,9 +194,9 @@ C_{n}^{2}
 
 ##### 3.字体
 
-*   Typewriter: \mathtt{A}
-*   Blackboard Bold: \mathtbb{A}
-*   Sans Serif: \mathsf{A}
+- Typewriter: \mathtt{A}
+- Blackboard Bold: \mathtbb{A}
+- Sans Serif: \mathsf{A}
 
 ###### 示例
 
@@ -214,17 +214,17 @@ C_{n}^{2}
 
 ##### 4.分组
 
-*   使用{}进行分组，当上标、下标等多余一个字符的时候，需要使用分组。
+- 使用{}进行分组，当上标、下标等多余一个字符的时候，需要使用分组。
 
 ###### 示例
 
-*   10的10次方，如果不用分组，如下：
+- 10的10次方，如果不用分组，如下：
 
 ```math
 10^10
 ```
 
-*   用了分组如下：
+- 用了分组如下：
 
 ```math
 10^{10}
@@ -232,20 +232,20 @@ C_{n}^{2}
 
 ##### 5.括号和分隔符
 
-*   () 、\[] 和 | 表示符号本身。
-*   当要显示大号的括号或分隔符时，需要用\left\right命令。使括号大小和邻近的公式相适应，适应于所有括号。如下示例
-    *   (\frac{x}{y})
-    *   \left(\frac{x}{y}\right)
-*   特殊符号
-    *   尖括号: \langle \rangle
-    *   上方括号: \lceil \rceil
-    *   下方括号: \lfloor \rfloor
-    *   大括号: \lbrace \rbrace
-    *   连线符号(上横线): \overline
-    *   下划线: \underline
-    *   上大括号(顶大括号): \overbrace 通常和^配合使用
-    *   下大括号: \underbrace 通常和\_配合使用
-    *   括号: \left( \right) 注意左右的括号不可省略。
+- () 、\[] 和 | 表示符号本身。
+- 当要显示大号的括号或分隔符时，需要用\left\right命令。使括号大小和邻近的公式相适应，适应于所有括号。如下示例
+    - (\frac{x}{y})
+    - \left(\frac{x}{y}\right)
+- 特殊符号
+    - 尖括号: \langle \rangle
+    - 上方括号: \lceil \rceil
+    - 下方括号: \lfloor \rfloor
+    - 大括号: \lbrace \rbrace
+    - 连线符号(上横线): \overline
+    - 下划线: \underline
+    - 上大括号(顶大括号): \overbrace 通常和^配合使用
+    - 下大括号: \underbrace 通常和\_配合使用
+    - 括号: \left( \right) 注意左右的括号不可省略。
 
 ###### 示例
 
@@ -299,9 +299,9 @@ C_{n}^{2}
 
 ##### 6.空格
 
-*   Latex语法本身会忽略空格的存在。
-*   小空格: a\ b
-*   大空格: a \quad b
+- Latex语法本身会忽略空格的存在。
+- 小空格: a\ b
+- 大空格: a \quad b
 
 ###### 示例
 
@@ -317,24 +317,24 @@ a \quad b
 
 ##### 1.初等运算
 
-*   等号: =
-*   加号: +
-*   减号: -
-*   乘号: \ast
-*   除号: \div
-*   加减: \pm
-*   减加: \mp
-*   叉积(向量或行列式): \times
-*   点积(向量或行列式): \cdot
-*   幂: ^
-*   指数: ^
-*   对数: \log\_ax \log\_{a}x
-*   自然对数(e为底): \ln x
-*   10为底对数: \lg x
-*   分式: \frac{x}{y}
-*   二次开方根式: \sqrt{x}
-*   根式: \sqrt\[n]{x}
-*   多项式: a\_nx^n + \cdots + a\_1x + a\_0 \quad n\geq 0
+- 等号: =
+- 加号: +
+- 减号: -
+- 乘号: \ast
+- 除号: \div
+- 加减: \pm
+- 减加: \mp
+- 叉积(向量或行列式): \times
+- 点积(向量或行列式): \cdot
+- 幂: ^
+- 指数: ^
+- 对数: \log\_ax \log\_{a}x
+- 自然对数(e为底): \ln x
+- 10为底对数: \lg x
+- 分式: \frac{x}{y}
+- 二次开方根式: \sqrt{x}
+- 根式: \sqrt\[n]{x}
+- 多项式: a\_nx^n + \cdots + a\_1x + a\_0 \quad n\geq 0
 
 ###### 示例
 
@@ -434,7 +434,7 @@ x^{1.1}=y
 \sqrt[2]{abc}
 ```
 
-*   多项式
+- 多项式
 
 ```math
 a_nx^n+\cdots+a_1x+a_0\quad n\geq{0}
@@ -442,43 +442,43 @@ a_nx^n+\cdots+a_1x+a_0\quad n\geq{0}
 
 ##### 2.比较运算
 
-*   小于等于: \leq
-*   小于: \lt
-*   大于等于: \geq
-*   大于: \gt
-*   不小于等于: \nleq 或者 \not \leq
-*   不大于等于: \ngeq 或者 \not \geq
-*   不等于: \neq
-*   约等于: \approx
-*   恒等于: \equiv
+- 小于等于: \leq
+- 小于: \lt
+- 大于等于: \geq
+- 大于: \gt
+- 不小于等于: \nleq 或者 \not \leq
+- 不大于等于: \ngeq 或者 \not \geq
+- 不等于: \neq
+- 约等于: \approx
+- 恒等于: \equiv
 
 ###### 示例
 
-*   小于等于
+- 小于等于
 
 ```math
 a\leq{b}
 ```
 
-*   小于
+- 小于
 
 ```math
 a\lt{b}
 ```
 
-*   大于等于
+- 大于等于
 
 ```math
 a\geq b
 ```
 
-*   大于
+- 大于
 
 ```math
 a\gt b
 ```
 
-*   不小于等于
+- 不小于等于
 
 ```math
 a\nleq b
@@ -488,13 +488,13 @@ a\nleq b
 a\not \leq b
 ```
 
-*   不小于，只能\not \lt 不能用\nlt
+- 不小于，只能\not \lt 不能用\nlt
 
 ```math
 a\not \lt b
 ```
 
-*   不大于等于
+- 不大于等于
 
 ```math
 a\ngeq b
@@ -504,25 +504,25 @@ a\ngeq b
 a\not \geq b
 ```
 
-*   不大于，只能\not \gt 不能用\ngt
+- 不大于，只能\not \gt 不能用\ngt
 
 ```math
 a\not \gt b
 ```
 
-*   不等于
+- 不等于
 
 ```math
 a\neq b
 ```
 
-*   约等于
+- 约等于
 
 ```math
 a\approx b
 ```
 
-*   恒等于
+- 恒等于
 
 ```math
 a\equiv b
@@ -530,28 +530,28 @@ a\equiv b
 
 ##### 3.集合运算
 
-*   属于: \in
-*   不属于: \notin
-*   子集: \subseteq 子集+等于
-*   真子集: \subset
-*   非子集: \not \subseteq
-*   非真子集: \not \subset
-*   超集: \supseteq 超集+等于
-*   真超集: \supset
-*   并集: \cup
-*   交集: \cap
-*   差集: \setminus
-*   空集合: \emptyset
+- 属于: \in
+- 不属于: \notin
+- 子集: \subseteq 子集+等于
+- 真子集: \subset
+- 非子集: \not \subseteq
+- 非真子集: \not \subset
+- 超集: \supseteq 超集+等于
+- 真超集: \supset
+- 并集: \cup
+- 交集: \cap
+- 差集: \setminus
+- 空集合: \emptyset
 
 ###### 示例
 
-*   属于
+- 属于
 
 ```math
 x\in X
 ```
 
-*   不属于
+- 不属于
 
 ```math
 x\notin X
@@ -561,61 +561,61 @@ x\notin X
 x\not \in X
 ```
 
-*   子集
+- 子集
 
 ```math
 A\subseteq B
 ```
 
-*   真子集
+- 真子集
 
 ```math
 A\subset B
 ```
 
-*   非子集
+- 非子集
 
 ```math
 A\not \subseteq B
 ```
 
-*   非真子集
+- 非真子集
 
 ```math
 A\not \subset B
 ```
 
-*   超集
+- 超集
 
 ```math
 A\supseteq B
 ```
 
-*   真超集
+- 真超集
 
 ```math
 A\supset B
 ```
 
-*   并集
+- 并集
 
 ```math
 A\cup B
 ```
 
-*   交集
+- 交集
 
 ```math
 A\cap B
 ```
 
-*   差集
+- 差集
 
 ```math
 A\setminus B
 ```
 
-*   空集
+- 空集
 
 ```math
 A = \emptyset
@@ -623,12 +623,12 @@ A = \emptyset
 
 ##### 4.三角函数
 
-*   正弦: \sin
-*   余弦: \cos
-*   正切: \tan
-*   余切: \cot
-*   正割: \sec
-*   余割: \csc
+- 正弦: \sin
+- 余弦: \cos
+- 正切: \tan
+- 余切: \cot
+- 正割: \sec
+- 余割: \csc
 
 ###### 示例
 
@@ -658,25 +658,25 @@ f(x) = \csc x
 
 ##### 5.累加和累乘
 
-*   累加求和: \sum
+- 累加求和: \sum
 
 ```math
 \sum_{i=0}^na_i
 ```
 
-*   累积求积: \prod
+- 累积求积: \prod
 
 ```math
 \prod_{i=0}^na_i
 ```
 
-*   累计并集: \bigcup
+- 累计并集: \bigcup
 
 ```math
 \bigcup_{i=0}^nA_i
 ```
 
-*   累计交集: \bigcap
+- 累计交集: \bigcap
 
 ```math
 \bigcap_{i=0}^nA_i
@@ -684,64 +684,64 @@ f(x) = \csc x
 
 ##### 6.数学分析
 
-*   极限: \lim
-    *   \lim\_{0 \to \infty}
-        *   \to 箭头
-        *   \infty 无穷大
+- 极限: \lim
+    - \lim\_{0 \to \infty}
+        - \to 箭头
+        - \infty 无穷大
 
 ```math
 \lim_{0\to\infty}
 ```
 
-*   微积分变量: \Delta
+- 微积分变量: \Delta
 
 ```math
 \Delta x
 ```
 
-*   微积分算子: \mathrm{d}
+- 微积分算子: \mathrm{d}
 
 ```math
 \mathrm{d}x
 ```
 
-*   偏微分算子: \partial
+- 偏微分算子: \partial
 
 ```math
 \partial{x}
 ```
 
-*   一重积分: \int
+- 一重积分: \int
 
 ```math
 \int_a^bf(x)\mathrm{d}x
 ```
 
-*   二重积分: \iint
+- 二重积分: \iint
 
 ```math
 \iint_Df(x,y)\mathrm{d}{\delta}
 ```
 
-*   多重积分: \<n个i>nt
+- 多重积分: \<n个i>nt
 
 ```math
 \iiint
 ```
 
-*   一重曲线积分: \oint
+- 一重曲线积分: \oint
 
 ```math
 \oint_LP\mathrm{d}x+Q\mathrm{d}y
 ```
 
-*   二重曲线积分: \oiint
+- 二重曲线积分: \oiint
 
 ```math
 \oiint
 ```
 
-*   多重曲线积分: \o<多个i>nt
+- 多重曲线积分: \o<多个i>nt
 
 ```math
 \oiiint
@@ -751,10 +751,10 @@ f(x) = \csc x
 
 ##### 1.基本语法
 
-*   起始标记: \begin{matrix}
-*   结束标记: \end{matrix}
-*   数据行换行标记: `\\`
-*   数据行内元素间隔标记: `&`
+- 起始标记: \begin{matrix}
+- 结束标记: \end{matrix}
+- 数据行换行标记: `\\`
+- 数据行内元素间隔标记: `&`
 
 ###### 示例
 
@@ -849,6 +849,8 @@ a_{n1}&a_{n2}&\cdots&a_{nn}\\
     - 水平线: \hline
 
 ###### 示例
+
+- 阵列
 
 ```math
 \begin{array}{c|lll}
