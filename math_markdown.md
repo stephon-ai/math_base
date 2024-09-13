@@ -906,7 +906,7 @@ a_3x+b_3y+c_3z = d_3\\
   ```math
   \Rightarrow
   ```
-##### 特定符合
+##### 2.特定符合
 
 - 整数集：\mathbb{Z}
   ```math
@@ -917,3 +917,13 @@ a_3x+b_3y+c_3z = d_3\\
   \mathbb{R}
   ```
 
+##### 全量、存量谓词
+
+- 任一: \forall
+  ```math
+  \forall x \in X
+  ```
+- 存在：\exists
+  ```math
+  \exists x \in X
+  ```
