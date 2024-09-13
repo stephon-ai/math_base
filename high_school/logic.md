@@ -110,4 +110,24 @@
     \forall x \in M, \lnot p(x)
     ```
 - 全称量词命题的否定
+  - 示例1: 每一个有理数都是实数
+  ```math
+  \forall x \in \mathbb{Q}, x \in \mathbb{R}
+  ```
+  - 否定形式是什么呢?
+    - 不是每一个有理数都是实数。
+    - 转换一下，得到：
+      - 存在一个有理数，不是实数。
+      ```math
+      \exists x \in \mathbb{Q}, x \notin \mathbb{R}
+      ```
+  - 总结规律:
+    - 一般地，全称量词命题:
+    ```math
+    \forall x \in M, q(x)
+    ```
+    - 否定形式，转化为 存在量词命题为：
+    ```math
+    \exists x \in M, \lnot q(x)
+    ```
   
