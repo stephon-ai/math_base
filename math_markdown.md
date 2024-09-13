@@ -876,4 +876,44 @@ a_3x+b_3y+c_3z = d_3\\
 \end{cases}
 ```
 
-  
+#### 额外补充
+
+##### 1.推导符号
+
+- 单线箭头: \leftrightarrow
+  - 双箭头
+  ```math
+  \leftrightarrow
+  ```
+  - 左箭头
+  ```math
+  \leftarrow
+  ```
+  - 右箭头
+  ```math
+  \rightarrow
+  ```
+- 双线箭头: \Leftrightarrow
+  - 双箭头
+  ```math
+  \Leftrightarrow
+  ```
+  - 左箭头
+  ```math
+  \Leftarrow
+  ```
+  - 右箭头
+  ```math
+  \Rightarrow
+  ```
+##### 特定符合
+
+- 整数集：\mathbb{Z}
+  ```math
+  \mathbb{Z}
+  ```
+- 实数集：\mathbb{R}
+  ```math
+  \mathbb{R}
+  ```
+
