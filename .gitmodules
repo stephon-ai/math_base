@@ -1,0 +1,6 @@
+[submodule "latex/latex/Latex-QuickList"]
+	path = latex/latex/Latex-QuickList
+	url = https://github.com/Eternal-embers/Latex-QuickList.git
+[submodule "latex/Latex-QuickList"]
+	path = latex/Latex-QuickList
+	url = https://github.com/Eternal-embers/Latex-QuickList.git
